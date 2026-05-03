@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Big Planetarium | Jupiter</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Big Planetarium</h1>
+
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sun.html">Sun</a></li>
+                <li><a href="mercury.html">Mercury</a></li>
+                <li><a href="venus.html">Venus</a></li>
+                <li><a href="earth.html">Earth</a></li>
+                <li><a href="moon.html">Moon</a></li>
+                <li><a href="mars.html">Mars</a></li>
+                <li><a href="jupiter.html">Jupiter</a></li>
+                <li><a href="saturn.html">Saturn</a></li>
+                <li><a href="uranus.html">Uranus</a></li>
+                <li><a href="neptune.html">Neptune</a></li>
+                <li><a href="pluto.html">Pluto</a></li>
+                <li><a href="io.html">Io</a></li>
+                <li><a href="europa.html">Europa</a></li>
+                <li><a href="ganymede.html">Ganymede</a></li>
+                <li><a href="callisto.html">Callisto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- JUPITER INTRO -->
+        <section>
+            <h2>Jupiter — The Giant Planet</h2>
+
+            <p>
+                Jupiter is the largest planet in our solar system. It is a gas giant made mostly
+                of hydrogen and helium, meaning it does not have a solid surface like Earth.
+            </p>
+
+            <p>
+                One of Jupiter’s most famous features is the Great Red Spot, a giant storm that
+                has been raging for hundreds of years. Jupiter also has a strong magnetic field
+                and many moons.
+            </p>
+
+            <img src="assets/jupiter.jpg" alt="Jupiter showing the Great Red Spot">
+        </section>
+
+        <!-- JUPITER VIDEO -->
+        <section>
+            <h2>Watch Jupiter and Its Moons</h2>
+
+            <p>
+                Watch this video to see Jupiter and its moons in motion. You can see the
+                Great Red Spot and the movement of the Galilean moons.
+            </p>
+
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/PtkqwslbLY8?si=i-YRcoEsYwSIo3Ih"
+            title="Jupiter and its moons video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+    </iframe>
+</section>
+
+        <!-- FACTS -->
+        <section>
+            <h2>Facts About Jupiter</h2>
+
+            <ul>
+                <li><strong>Largest Planet:</strong> Jupiter is the largest planet in the solar system.</li>
+                <li><strong>Gas Giant:</strong> Made mostly of hydrogen and helium.</li>
+                <li><strong>Fast Rotation:</strong> A day lasts about 10 hours.</li>
+                <li><strong>Great Red Spot:</strong> A storm larger than Earth.</li>
+                <li><strong>Many Moons:</strong> Over 90 known moons.</li>
+                <li><strong>No Solid Surface:</strong> Entirely gas.</li>
+            </ul>
+        </section>
+
+        <!-- DATA -->
+        <section>
+            <h2>Jupiter Data</h2>
+
+            <ul>
+                <li><strong>Diameter:</strong> 142,984 km</li>
+                <li><strong>Distance from Sun:</strong> 778 million km</li>
+                <li><strong>Orbit Time:</strong> 11.86 Earth years</li>
+                <li><strong>Temperature:</strong> -145°C</li>
+            </ul>
+        </section>
+
+       <!-- MOONS -->
+<section>
+    <h2>Jupiter`s Major Moons</h2>
+
+    <p>
+        Jupiter`s four largest moons are Io, Europa, Ganymede, and Callisto.
+        Click on each moon to learn more.
+    </p>
+
+    <!-- Group image -->
+    <img src="assets/jupiter-moons.jpg" alt="Jupiter and its major moons">
+
+    <div class="moons">
+
+        <!-- Io -->
+        <div class="moon">
+            <a href="io.html">
+                <img src="assets/io.jpg" alt="Io, a volcanic moon of Jupiter">
+            </a>
+            <p><strong>Io:</strong> The most volcanically active moon in the solar system.</p>
+        </div>
+
+        <!-- Europa -->
+        <div class="moon">
+            <a href="europa.html">
+                <img src="assets/europa.jpg" alt="Europa, icy moon of Jupiter">
+            </a>
+            <p><strong>Europa:</strong> An icy moon that may have an ocean beneath its surface.</p>
+        </div>
+
+        <!-- Ganymede -->
+        <div class="moon">
+            <a href="ganymede.html">
+                <img src="assets/ganymede.jpg" alt="Ganymede, largest moon in the solar system">
+            </a>
+            <p><strong>Ganymede:</strong> The largest moon in the solar system.</p>
+        </div>
+
+        <!-- Callisto -->
+        <div class="moon">
+            <a href="callisto.html">
+                <img src="assets/callisto.jpg" alt="Callisto, heavily cratered moon">
+            </a>
+            <p><strong>Callisto:</strong> A heavily cratered and ancient moon.</p>
+        </div>
+
+    </div>
+</section>
+
+        <!-- INTERACTIVE FACT SECTION -->
+        <section>
+            <h2>Did You Know?</h2>
+
+            <!-- Button triggers the showFact function in JavaScript -->
+            <button onclick="showFact()">Show Space Fact</button>
+
+            <!-- Fact display area -->
+            <p id="fact">Click the button to learn a space fact!</p>
+        </section>
+
+        <!-- JUPITER QUIZ -->
+        <section id="jupiter-quiz">
+            <h2>Jupiter Quiz</h2>
+
+            <!-- Question text is updated by JavaScript -->
+            <p id="question">Question will appear here</p>
+
+            <!-- Answer buttons -->
+            <button class="answer-btn" onclick="checkAnswer(0)">Answer 1</button>
+            <button class="answer-btn" onclick="checkAnswer(1)">Answer 2</button>
+            <button class="answer-btn" onclick="checkAnswer(2)">Answer 3</button>
+
+            <!-- Quiz result message -->
+            <p id="quizResult"></p>
+
+            <!-- Loads the next quiz question -->
+            <button onclick="nextQuestion()">Next Question</button>
+        </section>
+
+    </main>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
