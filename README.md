@@ -1,26 +1,59 @@
 # Assessment 2: Web Dev Project
 
-## Repository Info
-This is an empty folder for you to submit your Web Dev Project in. You must submit everything that is required to run your website in this folder, including all code and assets.
+## Project Description 
+This project is a multi-page website about the solar system.
+Each page represents a different planet or moon and includes images and basic structure using HTM, CSS, and Javascript
 
-**Only code pushed to your GitHub repository before the assessment deadline will be marked. Ensure you give yourself enough time before your final push.**
+## Technologies Used 
 
-## The Brief
-Web developers are routinely approached by companies, individuals, charities, and other organisations, asking them to create a specific website or web experience. It comes down to the developer not only to program the website, but also to design or implement key aspects when the client may not have the skillset to do so themselves. 
+HTML (structure)
+CSS (styling)
+JavaScript (interactivity - quiz and random facts)
 
-For this assessment, you must pick one of the client briefs available on Ultra and implement the website they have asked for. Each brief has a unique “Additional Requirement”, which asks you to implement a key aspect of their website besides the essential HTML and CSS. For example, you may need to show data from a database, or ensure your site works correctly on mobile devices. To do this successfully, you will need to independently find and apply appropriate techniques that you can use to meet the client's requirements. You should think carefully about the best way to meet their requirements, and be thoughtful about how best to use the techniques you find.
+## Project Structure 
 
-Regardless of which client brief you choose, your website must:
+- index.html (Home page)
+- callisto.html
+- earth.html
+- ganymede.html
+- io.html
+- jupiter.html
+- mars.html
+- mercury.html
+- moon.html
+- neptune.html
+- pluto.html
 
-* Deploy HTML and semantic elements.
-* Deploy CSS to style the pages.
-* Deploy JavaScript to create simple interaction(s).
-* Include at minimum 3 pages. The user should be able navigate between them using hyperlinks.
-* Include rich media. (e.g. images, video, audio, etc).
-* Be well indented, be well formatted, and contain helpful code comments.
+- script.js – contains JavaScript for interactivity  
+- style.css – contains styling  
+- assets/ – contains all images used in the website  
 
-Alongside your website, you will submit a 1,000-2,000 development document, where you will discuss the technical implementation of your project and reflect critically on the results. This will include a 5-8 minute Technical Breakdown Video.
 
-*If you are unsure which client brief you should pick, you should discuss this with your tutor.* 
+## Features 
 
-**Please read the full assessment brief on Ultra**
+- Navigation between pages using links
+- Images displayed from the assets folder
+- Interactive “Did You Know” button showing random space facts  
+- Jupiter quiz with answer checking using JavaScript  
+- Structured layout using semantic HTML  
+- Styled pages using CSS  
+
+
+## How to Run 
+
+1. Open the project folder  
+2. Double-click **index.html**  
+3. Navigate through the pages using the menu
+
+
+## Academic Integrity 
+
+I confirm that this assessment is my own work and has been completed in accordance with university guidelines.
+I have used ChatGpt as a support tool to clarify concepts and provide guidance on structure and study support, which helped me better understand the assignement requirements and the topics covered.
+All ideas, explanations, assumptions, design decisions, and final written content have been developed by me.
+
+## Author 
+
+Nelson Duarte 
+
+
