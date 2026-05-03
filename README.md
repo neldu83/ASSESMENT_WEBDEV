@@ -1,4 +1,4 @@
-# Assessment 2: Web Dev Project
+# Assessment 2: Big Planetarium - Web Dev Project
 
 ## Project Description 
 This project is a multi-page website about the solar system.
